@@ -137,6 +137,7 @@ class TablerPreset extends Preset
         tap(new Filesystem(), function ($filesystem) {
             $filesystem->copyDirectory(__DIR__.'/../tabler-stubs/auth', resource_path('views/auth'));
             $filesystem->copyDirectory(__DIR__.'/../tabler-stubs/layouts', resource_path('views/layouts'));
+            $filesystem->copyDirectory(__DIR__ . '/../tabler-stubs/img', storage_path('img'));
             $filesystem->copy(__DIR__.'/../tabler-stubs/home.blade.php', resource_path('views/home.blade.php'));
 
             collect($filesystem->allFiles(base_path('vendor/laravel/ui/stubs/migrations')))

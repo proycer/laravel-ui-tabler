@@ -15,10 +15,10 @@
 
     <body class="antialiased">
         <div class="page">
-            @include('layout.navbar')
+            @include('layouts.navbar')
             <div class="content">
                 @include('content')
-                @include('layout.footer')
+                @include('layouts.footer')
             </div>
         </div>
 
