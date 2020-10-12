@@ -1,6 +1,6 @@
 <?php
 
-namespace InfyOm\AdminLTEPreset;
+namespace Proycer\TablerPreset;
 
 use Illuminate\Console\Command;
 use Illuminate\Container\Container;
@@ -10,7 +10,7 @@ use InfyOm\GeneratorHelpers\LaravelUtils;
 use Laravel\Ui\Presets\Preset;
 use Symfony\Component\Finder\SplFileInfo;
 
-class AdminLTEPreset extends Preset
+class TablerPreset extends Preset
 {
     /** @var Command */
     protected $command;

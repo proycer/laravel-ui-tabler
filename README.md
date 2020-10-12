@@ -1,6 +1,6 @@
 # Laravel UI Tabler
 
-[Laravel Frontend Scaffolding](https://laravel.com/docs/7.x/frontend) for [Tabler](https://adminlte.io/themes/v3/) Theme.
+[Laravel Frontend Scaffolding](https://laravel.com/docs/7.x/frontend) for [Tabler](https://preview-dev.tabler.io) Theme.
 
 ## Installation
 

@@ -1,17 +1,17 @@
 {
-    "name": "infyomlabs/laravel-ui-adminlte",
-    "description": "Laravel frontend preset for AdminLTE Theme",
+    "name": "proycer/laravel-ui-tabler",
+    "description": "Laravel frontend preset for Tabler Theme",
     "keywords": [
         "laravel",
         "preset",
-        "adminlte"
+        "tabler"
     ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "John Esteban Astete",
+            "email": "john.astete@proycer.com.ar"
         }
     ],
     "require": {
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\AdminLTEPreset\\": "src/"
+            "Proycer\\TablerPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "InfyOm\\AdminLTEPreset\\AdminLTEPresetServiceProvider"
+                "Proycer\\TablerPreset\\TablerPresetServiceProvider"
             ]
         }
     }
