@@ -1,25 +1,12 @@
-# Laravel UI AdminLTE
+# Laravel UI Tabler
 
-[![Total Downloads](https://poser.pugx.org/infyomlabs/laravel-ui-adminlte/downloads)](https://packagist.org/packages/infyomlabs/laravel-ui-adminlte)
-[![Monthly Downloads](https://poser.pugx.org/infyomlabs/laravel-ui-adminlte/d/monthly)](https://packagist.org/packages/infyomlabs/laravel-ui-adminlte)
-[![Daily Downloads](https://poser.pugx.org/infyomlabs/laravel-ui-adminlte/d/daily)](https://packagist.org/packages/infyomlabs/laravel-ui-adminlte)
-[![License](https://poser.pugx.org/infyomlabs/laravel-ui-adminlte/license)](https://packagist.org/packages/infyomlabs/laravel-ui-adminlte)
-
-[Laravel Frontend Scaffolding](https://laravel.com/docs/7.x/frontend) for [AdminLTE3](https://adminlte.io/themes/v3/) Theme.
+[Laravel Frontend Scaffolding](https://laravel.com/docs/7.x/frontend) for [Tabler](https://adminlte.io/themes/v3/) Theme.
 
 ## Installation
 
 Run a command,
 
-`composer require infyomlabs/laravel-ui-adminlte`
-
-For Laravel 7,
-
-`composer require infyomlabs/laravel-ui-adminlte:^2.0`
-
-For Laravel 6,
-
-`composer require infyomlabs/laravel-ui-adminlte:^1.0`
+`composer require proycer/laravel-ui-tabler`
 
 ## Usage
 
@@ -27,11 +14,11 @@ Run a command,
 
 To Generate a full authentication UI,
 
-`php artisan ui adminlte --auth`
+`php artisan ui tabler --auth`
 
-To Install just AdminLTE theme assets,
+To Install just Tabler theme assets,
 
-`php artisan ui adminlte`
+`php artisan ui tabler`
 
 And then run,
 
@@ -40,11 +27,6 @@ And then run,
 Or for production,
 
 `npm install && npm run prod`
-
-## Tutorial
-Here you can find a video tutorial. (**Credits**: [shailesh-ladumor](https://github.com/shailesh-ladumor))
-
-[<img src="https://img.youtube.com/vi/jA7hr2gE9yc/0.jpg" width="480">](https://youtu.be/jA7hr2gE9yc)
 
 ## Screenshots
 
