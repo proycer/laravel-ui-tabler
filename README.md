@@ -34,20 +34,16 @@ Or for production,
 
 ### Login
 
-![Login](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/Login.png)
+![Login](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/login.png)
 
 ### Register
 
-![Register](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/Register.png)
+![Register](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/register.png)
 
 ### Reset Password Form
 
-![Reset Password Form](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/Reset-Password-Form.png)
-
-### Reset Password
-
-![Reset Password](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/Reset-Password.png)
+![Reset Password Form](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/reset.png)
 
 ### Admin Layout
 
-![Reset Password](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/Admin-Layout.png)
+![Reset Password](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/layout.png)
