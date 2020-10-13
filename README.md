@@ -2,7 +2,7 @@
 
 [Laravel Frontend Scaffolding](https://laravel.com/docs/7.x/frontend) for [Tabler](https://preview-dev.tabler.io) Theme.
 
-![Preview](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/preview.png)
+![Preview](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/preview.png)
 
 ## Installation
 
@@ -34,7 +34,7 @@ Or for production,
 
 ### Login
 
-![Login](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/Login.png)
+![Login](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/Login.png)
 
 ### Register
 
