@@ -67,7 +67,7 @@ class TablerPreset extends Preset
         (new Filesystem())->ensureDirectoryExists(resource_path('sass'));
 
         // self::recursive_copy(__DIR__ . '/../tabler-stubs/bootstrap/tabler/scss', 'sass/tabler');
-        copy(__DIR__ . '/../tabler-stubs/bootstrap/tabler.scss', resource_path('sass/tabler.scss'));
+        copy(__DIR__ . '/../tabler-stubs/bootstrap/tabler.min.css', resource_path('sass/tabler.min.css'));
         copy(__DIR__.'/../tabler-stubs/bootstrap/app.scss', resource_path('sass/app.scss'));
     }
 

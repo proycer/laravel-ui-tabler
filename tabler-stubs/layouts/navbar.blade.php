@@ -15,7 +15,7 @@
                         <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
                     </svg>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-menu-card">
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow dropdown-menu-card">
                     <div class="card">
                         <div class="card-body">
                             No new notifications
@@ -37,7 +37,7 @@
                         <div class="mt-1 small text-muted">Administator</div>
                     </div>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right">
+                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                     <a class="dropdown-item" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" />
@@ -47,11 +47,11 @@
                         Options
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                    <a href="#" class="dropdown-item" data-toggle="modal" data-target="#logout-modal">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" />
-                            <line x1="12" y1="5" x2="12" y2="19" />
-                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <path stroke="none" d="M0 0h24v24H0z"></path>
+                            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path>
+                            <path d="M7 12h14l-3 -3m0 6l3 -3"></path>
                         </svg>
                         Logout
                     </a>
@@ -66,20 +66,7 @@
                 <ul class="navbar-nav">
                     @include('layouts.menu')
                 </ul>
-                <div class="ml-md-auto pl-md-4 py-2 py-md-0 mr-md-4 order-first order-md-last flex-grow-1 flex-md-grow-0">
-                    <form action="." method="get">
-                        <div class="input-icon">
-                            <span class="input-icon-addon">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" />
-                                    <circle cx="10" cy="10" r="7" />
-                                    <line x1="21" y1="21" x2="15" y2="15" />
-                                </svg>
-                            </span>
-                            <input type="text" class="form-control" placeholder="Search…">
-                        </div>
-                    </form>
-                </div>
+                @include('layouts.search')
             </div>
         </div>
     </div>
