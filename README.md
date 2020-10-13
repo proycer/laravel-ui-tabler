@@ -34,11 +34,11 @@ Or for production,
 
 ### Login
 
-![Login](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/login.png)
+![Login](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/login-page.png)
 
 ### Register
 
-![Register](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/register.png)
+![Register](https://raw.githubusercontent.com/Proycer/laravel-ui-tabler/main/screenshots/register-page.png)
 
 ### Reset Password Form
 
