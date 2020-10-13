@@ -2,6 +2,8 @@
 
 [Laravel Frontend Scaffolding](https://laravel.com/docs/7.x/frontend) for [Tabler](https://preview-dev.tabler.io) Theme.
 
+![Preview](https://raw.github.com/InfyOmLabs/laravel-ui-adminlte/master/screenshots/preview.png)
+
 ## Installation
 
 Run a command,
